@@ -6,15 +6,6 @@ import random
 import re
 import sys
 
-
-#
-# Complete the 'hourglassSum' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts 2D_INTEGER_ARRAY arr as parameter.
-#
-
-
 def hourglassSum(arr):
     # Write your code here
     max_hourglass = -sys.maxsize - 1
@@ -30,13 +21,6 @@ def hourglassSum(arr):
 
             if (soma_linha_1 + soma_linha_2 + soma_linha_3) >= max_hourglass:
                 max_hourglass = soma_linha_1 + soma_linha_2 + soma_linha_3
-
-            #print(i)
-            #print(j)
-            #print(soma_linha_1 + soma_linha_2 + soma_linha_3)
-            #print(max_hourglass)
-            #print('\n')
-
 
 
     # ret = len(arr) + len(arr[1])
