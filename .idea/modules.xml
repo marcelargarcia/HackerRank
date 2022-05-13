@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SDEInterview.iml" filepath="$PROJECT_DIR$/.idea/SDEInterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SDEInterview/.idea/SDEInterview.iml" filepath="$PROJECT_DIR$/../SDEInterview/.idea/SDEInterview.iml" />
     </modules>
   </component>
 </project>
