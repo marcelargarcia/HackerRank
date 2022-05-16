@@ -5,7 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4190bd0-92ab-4afe-9b74-0aca9727fed1" name="Default Changelist" comment="" />
+    <list default="true" id="c4190bd0-92ab-4afe-9b74-0aca9727fed1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_CommonElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_CommonElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy_MostFrequent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_MostFrequent.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Udemy_MostFrequent">
+  <component name="RunManager" selected="Python.Udemy_CommonElements">
     <configuration name="HackerRank_MinSwap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDEInterview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +67,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Udemy_CommonElements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDEInterview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy_CommonElements.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Udemy_MostFrequent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDEInterview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,85 +96,22 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SDEInterview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../SDEInterview/Udemy_MostFrequent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy_MostFrequent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="SDEInterview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="SDEInterview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="SDEInterview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="SDEInterview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Udemy_CommonElements" />
         <item itemvalue="Python.Udemy_MostFrequent" />
         <item itemvalue="Python.HackerRank_MinSwap" />
       </list>
@@ -181,9 +143,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3481" y="316" key="#HackerRank_MinSwap" timestamp="1643283592420">
-      <screen x="2560" y="23" width="2560" height="1417" />
+    <state x="532" y="305" key="#Udemy_MostFrequent" timestamp="1652442639090">
+      <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state x="3481" y="316" key="#HackerRank_MinSwap/2560.23.2560.1417/0.23.2560.1339/5120.931.1680.1027@2560.23.2560.1417" timestamp="1643283592420" />
+    <state x="532" y="305" key="#Udemy_MostFrequent/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652442639090" />
+    <state width="1589" height="382" key="GridCell.Tab.0.bottom" timestamp="1652700678589">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1589" height="382" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652700678589" />
+    <state width="1589" height="382" key="GridCell.Tab.0.center" timestamp="1652700678588">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1589" height="382" key="GridCell.Tab.0.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652700678588" />
+    <state width="1589" height="382" key="GridCell.Tab.0.left" timestamp="1652700678588">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1589" height="382" key="GridCell.Tab.0.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652700678588" />
+    <state width="1589" height="382" key="GridCell.Tab.0.right" timestamp="1652700678588">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state width="1589" height="382" key="GridCell.Tab.0.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652700678588" />
   </component>
 </project>
