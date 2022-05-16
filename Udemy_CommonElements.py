@@ -1,4 +1,4 @@
-# https://www.udemy.com/course/11-essential-coding-interview-questions/learn/lecture/7450632#overview
+# https://www.udemy.com/course/11-essential-coding-interview-questions
 # O(min(len(array1), len(array2))
 
 def common_elements(list1, list2):
