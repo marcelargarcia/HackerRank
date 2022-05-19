@@ -6,10 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4190bd0-92ab-4afe-9b74-0aca9727fed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Udemy_TwoIntegersMultiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy_ThreeIntegersMultiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Udemy_isARotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_CommonElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_CommonElements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy_MostFrequent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_MostFrequent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Udemy_TwoIntegersMultiply">
-    <configuration name="HackerRank_MinSwap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SDEInterview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank_MinSwap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Udemy_ThreeIntegersMultiply">
     <configuration name="Udemy_CommonElements" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDEInterview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,6 +88,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Udemy_ThreeIntegersMultiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDEInterview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy_ThreeIntegersMultiply.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Udemy_TwoIntegersMultiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDEInterview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,12 +130,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Udemy_isARotation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDEInterview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy_isARotation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Udemy_ThreeIntegersMultiply" />
+        <item itemvalue="Python.Udemy_isARotation" />
         <item itemvalue="Python.Udemy_TwoIntegersMultiply" />
         <item itemvalue="Python.Udemy_CommonElements" />
         <item itemvalue="Python.Udemy_MostFrequent" />
-        <item itemvalue="Python.HackerRank_MinSwap" />
       </list>
     </recent_temporary>
   </component>
@@ -170,37 +191,122 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="532" y="305" key="#Udemy_MostFrequent/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652442639090" />
-    <state width="2397" height="469" key="GridCell.Tab.0.bottom" timestamp="1652704269634">
+    <state width="2490" height="472" key="GridCell.Tab.-1.bottom" timestamp="1652966053434">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269634" />
-    <state width="2397" height="469" key="GridCell.Tab.0.center" timestamp="1652704269633">
+    <state width="2490" height="472" key="GridCell.Tab.-1.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652966053434" />
+    <state width="2490" height="472" key="GridCell.Tab.-1.center" timestamp="1652966053434">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.0.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269633" />
-    <state width="2397" height="469" key="GridCell.Tab.0.left" timestamp="1652704269633">
+    <state width="2490" height="472" key="GridCell.Tab.-1.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652966053434" />
+    <state width="2490" height="472" key="GridCell.Tab.-1.left" timestamp="1652966053433">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.0.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269633" />
-    <state width="2397" height="469" key="GridCell.Tab.0.right" timestamp="1652704269634">
+    <state width="2490" height="472" key="GridCell.Tab.-1.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652966053433" />
+    <state width="2490" height="472" key="GridCell.Tab.-1.right" timestamp="1652966053434">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.0.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269634" />
-    <state width="2397" height="469" key="GridCell.Tab.1.bottom" timestamp="1652704269636">
+    <state width="2490" height="472" key="GridCell.Tab.-1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652966053434" />
+    <state width="1741" height="468" key="GridCell.Tab.0.bottom" timestamp="1652968635272">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.1.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269636" />
-    <state width="2397" height="469" key="GridCell.Tab.1.center" timestamp="1652704269635">
+    <state width="1741" height="468" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635272" />
+    <state width="1464" height="382" key="GridCell.Tab.0.bottom/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639317" />
+    <state width="1741" height="468" key="GridCell.Tab.0.center" timestamp="1652968635271">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.1.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269635" />
-    <state width="2397" height="469" key="GridCell.Tab.1.left" timestamp="1652704269634">
+    <state width="1741" height="468" key="GridCell.Tab.0.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635271" />
+    <state width="1464" height="382" key="GridCell.Tab.0.center/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639316" />
+    <state width="1741" height="468" key="GridCell.Tab.0.left" timestamp="1652968635270">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.1.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269634" />
-    <state width="2397" height="469" key="GridCell.Tab.1.right" timestamp="1652704269635">
+    <state width="1741" height="468" key="GridCell.Tab.0.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635270" />
+    <state width="1464" height="382" key="GridCell.Tab.0.left/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639316" />
+    <state width="1741" height="468" key="GridCell.Tab.0.right" timestamp="1652968635271">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="2397" height="469" key="GridCell.Tab.1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652704269635" />
+    <state width="1741" height="468" key="GridCell.Tab.0.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635271" />
+    <state width="1464" height="382" key="GridCell.Tab.0.right/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639317" />
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.bottom" timestamp="1652968635230">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635230" />
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.center" timestamp="1652968635229">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635229" />
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.left" timestamp="1652968635272">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635272" />
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.right" timestamp="1652968635230">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="109" width="2461" height="444" key="GridCell.Tab.1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635230" />
+    <state x="2659" y="244" width="2461" height="460" key="dock-window-1" timestamp="1652968251181">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="244" width="2461" height="460" key="dock-window-1/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251181" />
+    <state x="2659" y="109" width="2461" height="460" key="dock-window-10" timestamp="1652968635639">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="109" width="2461" height="460" key="dock-window-10/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635639" />
+    <state x="2659" y="94" width="2461" height="460" key="dock-window-11" timestamp="1652968635639">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="94" width="2461" height="460" key="dock-window-11/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635639" />
+    <state x="2659" y="229" width="2461" height="460" key="dock-window-2" timestamp="1652968251182">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="229" width="2461" height="460" key="dock-window-2/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251182" />
+    <state x="2659" y="214" width="2461" height="460" key="dock-window-3" timestamp="1652968251182">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="214" width="2461" height="460" key="dock-window-3/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251182" />
+    <state x="2659" y="199" width="2461" height="460" key="dock-window-4" timestamp="1652968251183">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="199" width="2461" height="460" key="dock-window-4/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251183" />
+    <state x="2659" y="184" width="2461" height="460" key="dock-window-5" timestamp="1652968251183">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="184" width="2461" height="460" key="dock-window-5/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251183" />
+    <state x="2659" y="169" width="2461" height="460" key="dock-window-6" timestamp="1652968251183">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="169" width="2461" height="460" key="dock-window-6/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251183" />
+    <state x="2659" y="154" width="2461" height="460" key="dock-window-7" timestamp="1652968251183">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="154" width="2461" height="460" key="dock-window-7/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968251183" />
+    <state x="2659" y="139" width="2461" height="460" key="dock-window-8" timestamp="1652968635640">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="139" width="2461" height="460" key="dock-window-8/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635640" />
+    <state x="2659" y="124" width="2461" height="460" key="dock-window-9" timestamp="1652968635640">
+      <screen x="2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="2659" y="124" width="2461" height="460" key="dock-window-9/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652968635640" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Udemy_ThreeIntegersMultiply.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Udemy_ThreeIntegersMultiply.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="divisiveis[left] * divisiveis[i] * divisiveis[right]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
