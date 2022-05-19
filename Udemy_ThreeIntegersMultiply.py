@@ -21,5 +21,5 @@ def find3IntegersMulitply(list, mult):
 
 
 if __name__ == "__main__":
-    print(find3IntegersMulitply([2, 3, 1, 5, -20, -1], 20))
+    print(find3IntegersMulitply([2, 3, 1, 5, -20, -1], -40))
     print(find3IntegersMulitply([], 10))
