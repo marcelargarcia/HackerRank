@@ -31,7 +31,7 @@ def maximumToys(prices, k):
         toys -= 1
     return toys
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fptr = sys.stdout
 
     first_multiple_input = input().rstrip().split()

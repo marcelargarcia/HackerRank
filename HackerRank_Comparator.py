@@ -1,4 +1,5 @@
 #https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem?h_l=interview&isFullScreen=false&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
+#O(N logN)??
 
 import functools
 from functools import cmp_to_key
