@@ -1,3 +1,5 @@
+# O(n2)
+
 def find3IntegersMulitply(list, mult):
     divisiveis = []
     for m in range(len(list)):

@@ -1,4 +1,5 @@
 # https://www.hackerrank.com/interview/interview-preparation-kit
+# O(n)
 
 #!/bin/python3
 

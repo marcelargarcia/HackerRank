@@ -1,4 +1,5 @@
 # https://www.hackerrank.com/interview/interview-preparation-kit
+# O(min(len(s1), len(s2))
 
 #!/bin/python3
 
