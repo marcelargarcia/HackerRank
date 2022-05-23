@@ -20,4 +20,4 @@ if __name__ == "__main__":
     print(non_repeating("abcab"))  # should return 'c'
     print(non_repeating("abab"))  # should return None
     print(non_repeating("aabbbc"))  # should return 'c'
-    print(non_repeating("aabbdbc"))  # should return 'd'Non
+    print(non_repeating("aabbdbc"))  # should return 'd'
