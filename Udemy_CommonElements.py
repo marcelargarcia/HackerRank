@@ -1,5 +1,5 @@
 # https://www.udemy.com/course/11-essential-coding-interview-questions
-# O(min(len(array1), len(array2))
+# O(Min(len(array1), len(array2))
 
 def common_elements(list1, list2):
     set1 = set(list1)
