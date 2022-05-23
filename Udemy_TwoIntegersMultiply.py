@@ -1,5 +1,5 @@
 # https://www.udemy.com/course/11-essential-coding-interview-questions
-# O(n)
+# O(N)
 
 def find2Integers(list, mult):
     #list.sort() # O(N log N) [-1, 1, 2, 4, 5, 15, 40]
