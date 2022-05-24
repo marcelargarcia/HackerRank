@@ -21,7 +21,7 @@ def is_one_away(s1, s2):
         return True
 
     # Diff len
-    elif (len(maxList) - len(minList)) == 1:
+    if (len(maxList) - len(minList)) <= 1:
         countdiff = 0
         j = 0
         for i in range(len(maxList)):

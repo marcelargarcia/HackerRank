@@ -6,6 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4190bd0-92ab-4afe-9b74-0aca9727fed1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Udemy_MineSweeper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy_OneAwayString.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy_OneAwayString.py" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Udemy_OneAwayString">
+  <component name="RunManager" selected="Python.Udemy_MineSweeper">
     <configuration name="HackerRank_Comparator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDEInterview" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank_maximumToys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Udemy_MineSweeper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDEInterview" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy_MineSweeper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,34 +151,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Udemy_ThreeIntegersMultiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SDEInterview" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy_ThreeIntegersMultiply.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Udemy_MineSweeper" />
         <item itemvalue="Python.Udemy_OneAwayString" />
         <item itemvalue="Python.Udemy_NonRepetingChar" />
         <item itemvalue="Python.HackerRank_Comparator" />
         <item itemvalue="Python.HackerRank_maximumToys" />
-        <item itemvalue="Python.Udemy_ThreeIntegersMultiply" />
       </list>
     </recent_temporary>
   </component>
@@ -206,49 +207,49 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="352" y="840" width="2460" height="416" key="GridCell.Tab.-1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1652970885946" />
-    <state width="1851" height="290" key="GridCell.Tab.0.bottom" timestamp="1653305010834">
+    <state width="1678" height="290" key="GridCell.Tab.0.bottom" timestamp="1653390656766">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="1851" height="290" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653305010834" />
+    <state width="1678" height="290" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390656766" />
     <state width="2022" height="378" key="GridCell.Tab.0.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652989193647" />
     <state width="1464" height="382" key="GridCell.Tab.0.bottom/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639317" />
-    <state width="1851" height="290" key="GridCell.Tab.0.center" timestamp="1653305010833">
+    <state width="1678" height="290" key="GridCell.Tab.0.center" timestamp="1653390656765">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="1851" height="290" key="GridCell.Tab.0.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653305010833" />
+    <state width="1678" height="290" key="GridCell.Tab.0.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390656765" />
     <state width="2022" height="378" key="GridCell.Tab.0.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652989193647" />
     <state width="1464" height="382" key="GridCell.Tab.0.center/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639316" />
-    <state width="1851" height="290" key="GridCell.Tab.0.left" timestamp="1653305010833">
+    <state width="1678" height="290" key="GridCell.Tab.0.left" timestamp="1653390656764">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="1851" height="290" key="GridCell.Tab.0.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653305010833" />
+    <state width="1678" height="290" key="GridCell.Tab.0.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390656764" />
     <state width="2022" height="378" key="GridCell.Tab.0.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652989193646" />
     <state width="1464" height="382" key="GridCell.Tab.0.left/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639316" />
-    <state width="1851" height="290" key="GridCell.Tab.0.right" timestamp="1653305010834">
+    <state width="1678" height="290" key="GridCell.Tab.0.right" timestamp="1653390656765">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state width="1851" height="290" key="GridCell.Tab.0.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653305010834" />
+    <state width="1678" height="290" key="GridCell.Tab.0.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390656765" />
     <state width="2022" height="378" key="GridCell.Tab.0.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652989193647" />
     <state width="1464" height="382" key="GridCell.Tab.0.right/2560.23.2560.1417/0.23.2560.1345/-1680.909.1680.1027@0.23.2560.1345" timestamp="1652959639317" />
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.bottom" timestamp="1653304866265">
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.bottom" timestamp="1653390626871">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653304866265" />
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390626871" />
     <state width="2022" height="471" key="GridCell.Tab.1.bottom/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652988889368" />
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.center" timestamp="1653304866264">
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.center" timestamp="1653390626870">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653304866264" />
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390626870" />
     <state width="2022" height="471" key="GridCell.Tab.1.center/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652988889367" />
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.left" timestamp="1653304866264">
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.left" timestamp="1653390626869">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653304866264" />
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390626869" />
     <state width="2022" height="471" key="GridCell.Tab.1.left/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652988889367" />
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.right" timestamp="1653304866265">
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.right" timestamp="1653390626870">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
-    <state x="0" y="621" width="1851" height="471" key="GridCell.Tab.1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653304866265" />
+    <state x="0" y="621" width="1678" height="471" key="GridCell.Tab.1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@0.23.2560.1345" timestamp="1653390626870" />
     <state width="2022" height="471" key="GridCell.Tab.1.right/2560.23.2560.1417/-1680.909.1680.1027/0.23.2560.1345@2560.23.2560.1417" timestamp="1652988889367" />
     <state x="2659" y="64" width="2461" height="444" key="GridCell.Tab.2.bottom" timestamp="1652970872593">
       <screen x="2560" y="23" width="2560" height="1417" />
@@ -334,8 +335,7 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="s1[i]" />
-        <watch expression="s2[j]" />
+        <watch expression="len(bombs)" />
       </configuration>
     </watches-manager>
   </component>
