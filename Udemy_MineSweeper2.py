@@ -4,8 +4,8 @@ from collections import deque
 
 
 # Implement your function below.
-# DFS?
-def click(field, num_rows, num_cols, given_i, given_j):
+# DFS - backtracking
+def click_1(field, num_rows, num_cols, given_i, given_j):
     if field[given_i][given_j] == -1 or field[given_i][given_j] >= 1:
         return field
 
@@ -23,47 +23,43 @@ def click(field, num_rows, num_cols, given_i, given_j):
 
     return field
 
+# BFS -
+def click(field, num_rows, num_cols, given_i, given_j):
+    if field[given_i][given_j] == -1 or field[given_i][given_j] >= 1:
+        return field
 
-# Implement your function below.
-# BFS?
-# def click_2(field, num_rows, num_cols, given_i, given_j):
-#     if field[given_i][given_j] == -1 or field[given_i][given_j] >= 1:
-#         return field
-#
-#     field[given_i][given_j] = -2
-#     queue = deque()
-#     # queue.append([given_i, given_j])
-#     i = given_i - 1
-#     j = given_j - 1
-#
-#     while i in range(given_i - 1, given_i + 2):
-#         if i < 0:
-#             i += 1
-#             continue
-#         elif i >= num_rows:
-#             i = given_i - 1
-#             continue
-#         while j in range(given_j - 1, given_j + 2):
-#             if j < 0:
-#                 j += 1
-#                 continue
-#             elif j >= num_cols:
-#                 break
-#             if field[i][j] == 0:
-#                 queue.append([i, j])
-#                 field[i][j] = -2
-#             j += 1
-#         i += 1
-#         j = given_j - 1
-#
-#         if i == given_i + 2:
-#             next = queue.popleft()
-#             given_i = next[0]
-#             given_j = next[1]
-#             i = given_i - 1
-#             j = given_j - 1
-#
-#     return field
+    queue = deque()
+    field[given_i][given_j] = -2
+
+    i = given_i - 1
+    j = given_j - 1
+
+    while i in range(given_i - 1, given_i + 2):
+        if i < 0:
+            i += 1
+            continue
+        for j in range(given_j - 1, given_j + 2):
+            if j < 0:
+                j = 0
+                continue
+            if j >= num_cols:
+                break
+            if field[i][j] == 0:
+                queue.append([i, j])
+                field[i][j] = -2
+        i += 1
+        j = given_j - 1
+
+        if (i == given_i + 2 or i == num_rows) and len(queue) > 0:
+            next = queue.popleft()
+            given_i = next[0]
+            given_j = next[1]
+            i = given_i - 1
+            j = given_j - 1
+        elif (i == given_i + 2 or i == num_rows) and len(queue) == 0:
+            return field
+
+    return field
 
 
 # NOTE: Feel free to use the following function for testing.
