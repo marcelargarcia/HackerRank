@@ -5,7 +5,7 @@ from collections import deque
 
 # Implement your function below.
 # DFS - backtracking
-def click_1(field, num_rows, num_cols, given_i, given_j):
+def click_DFS(field, num_rows, num_cols, given_i, given_j):
     if field[given_i][given_j] == -1 or field[given_i][given_j] >= 1:
         return field
 
