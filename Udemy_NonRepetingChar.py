@@ -1,4 +1,4 @@
-# https://www.udemy.com/course/11-essential-coding-interview-questions/learn/quiz/380026#questions
+# https://www.udemy.com/course/11-essential-coding-interview-questions
 # O(N)
 
 
