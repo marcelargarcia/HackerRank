@@ -1,5 +1,5 @@
 # https://www.udemy.com/course/11-essential-coding-interview-questions
-# O(
+# O(N)
 
 
 # Use this class to create linked lists.
@@ -16,7 +16,8 @@ class Node:
 
 
 # Implement your function below.
-def nth_from_last(head, n):
+#(2N)
+def nth_from_last_1(head, n):
     curr = head
     if isinstance(curr, type(None)):
         return None
@@ -30,6 +31,24 @@ def nth_from_last(head, n):
         else:
             return curr
 
+#(N)
+def nth_from_last(head, n):
+    curr = head
+    point = head
+    dist = 0
+    if isinstance(curr, type(None)):
+        return None
+    else:
+        while curr is not None:
+            dist = dist + 1
+            curr = curr.next
+            if dist > n:
+                point = point.next
+
+        if dist < n:
+            return None
+        else:
+            return point
 
 # NOTE: Feel free to use the following function for testing.
 # It converts the given linked list into an easy-to-read string format.
