@@ -112,7 +112,7 @@ head4 = create_tree(mapping4, 3)
 #      /\
 #     0  4
 
-#print(is_bst(head0))
+print(is_bst(head0))
 # should return False
 print(is_bst(head1))
 # should return False

@@ -16,7 +16,7 @@ def lca(root, j, k):
     return None
 
 def hasPath(path, root, k):
-
+    
 
 
 # head1 = 0
