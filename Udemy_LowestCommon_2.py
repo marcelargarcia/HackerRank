@@ -12,18 +12,45 @@ class Node:
 
 # Implement your function below.
 def lca(root, j, k):
+    path_j = []
+    path_k = []
+    common = []
+    hasPath(path_j, root, j)
+    hasPath(path_k, root, k)
+    path_j.extend(path_k)
+    for m in path_j:
+        if path_j.count(m) > 1:
+            common.append(m)
+    if not common:
+        return None
+
+    return common.pop()
+
 
     return None
-
-def hasPath(path, root, k):
-    
-
 
 # head1 = 0
 #        / \
 #       1   2
 #      /\   /\
 #     3  4 5  6
+
+def hasPath(path, node, k):
+    if node is None:
+        return False
+    if node.value == k:
+        path.append(node.value)
+        return True
+
+    path.append(node.value)
+
+    if hasPath(path, node.left, k) or hasPath(path, node.right, k):
+        return True
+    else:
+        path.remove(node.value)
+        return False
+
+
 
 def create_tree(mapping, head_value):
     nodes = {head_value: Node(head_value)}
