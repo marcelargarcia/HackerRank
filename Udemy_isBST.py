@@ -26,6 +26,11 @@ def is_bst(self, lower_lim=None, upper_lim=None):
         is_bst_right = is_bst(self.right, self.value, upper_lim)
     return is_bst_left and is_bst_right
 
+#  head1 = 0
+#        /   \
+#       1     2
+#      /\    / \
+#     3  4  5   6
 
 def create_tree(mapping, head_value):
     head = Node(head_value)
@@ -82,7 +87,7 @@ head4 = create_tree(mapping4, 3)
 #      /\
 #     0  4
 
-print(is_bst(head0))
+#print(is_bst(head0))
 # should return False
 print(is_bst(head1))
 # should return False

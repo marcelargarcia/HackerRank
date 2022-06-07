@@ -1,6 +1,7 @@
 # Use this class to create binary trees.
 import sys
 
+
 class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -11,23 +12,31 @@ class Node:
         return str(self.value)
 
 
-# Implement your function below.
+# DFS
 def is_bst(node, lower_lim=None, upper_lim=None):
     if node is None:
         return True
     else:
         if upper_lim is None: upper_lim = sys.maxsize
-        if lower_lim is None: lower_lim = -sys.maxsize -1
-
-        bst_left = is_bst(node.left, lower_lim, node.value)
-        bst_right = is_bst(node.right, node.value, upper_lim)
+        if lower_lim is None: lower_lim = -sys.maxsize - 1
 
         if upper_lim > node.value > lower_lim:
             bst = True
         else:
             bst = False
 
+        if bst:
+            bst_left = is_bst(node.left, lower_lim, node.value)
+        else:
+            bst_left = False
+
+        if bst_left and bst:
+            bst_right = is_bst(node.right, node.value, upper_lim)
+        else:
+            bst_right = False
+
     return bst and bst_left and bst_right
+
 
 #  head1 = 0
 #        /   \
@@ -103,7 +112,7 @@ head4 = create_tree(mapping4, 3)
 #      /\
 #     0  4
 
-print(is_bst(head0))
+#print(is_bst(head0))
 # should return False
 print(is_bst(head1))
 # should return False
