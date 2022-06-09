@@ -29,25 +29,19 @@ def lca(root, j, k):
 
     return None
 
-# head1 = 0
-#        / \
-#       1   2
-#      /\   /\
-#     3  4 5  6
-
 def hasPath(path, node, k):
     if node is None:
         return False
     if node.value == k:
-        path.append(node.value)
+        path.append(node)
         return True
 
-    path.append(node.value)
+    path.append(node)
 
     if hasPath(path, node.left, k) or hasPath(path, node.right, k):
         return True
     else:
-        path.remove(node.value)
+        path.remove(node)
         return False
 
 
