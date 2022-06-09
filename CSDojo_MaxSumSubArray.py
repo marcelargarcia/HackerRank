@@ -9,6 +9,11 @@ import sys
 # Brute-force solution:
 # Generate all possible subarrays (O(Nˆ2))
 def maxSumSubArray_1(arr):
+    if len(arr) == 0:
+        return None
+    if len(arr) == 1:
+        return arr
+
     maxSum = - sys.maxsize - 1
     arr_result = []
     for i in range(len(arr)):
@@ -32,6 +37,11 @@ def maxSumSubArray_1(arr):
 # O(N) time
 # O(N) space (could improve it if I stored indices instead of the array)
 def maxSumSubArray_2(arr):
+    if len(arr) ==0:
+        return None
+    if len(arr) == 1:
+        return arr
+
     global_sum = local_sum = arr[0]
     arr_result = []
     arr_result.append(arr[0])
@@ -81,6 +91,14 @@ if __name__ == '__main__':
     print("Array 2: [-1, -2, -3, -4, -5]")
     print("Result: [", end='') # should return 1, 2, 3, 4, 5
     arr1_res = maxSumSubArray_2(arr3)
+    for ar in arr1_res:
+        print(str(ar) + ", ", end='')
+    print("]")
+
+    arr4 = []
+    print("Array 2: []")
+    print("Result: [", end='')  # should return 1, 2, 3, 4, 5
+    arr1_res = maxSumSubArray_2(arr4)
     for ar in arr1_res:
         print(str(ar) + ", ", end='')
     print("]")
