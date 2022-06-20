@@ -1,6 +1,7 @@
 # https://www.hackerrank.com/challenges/ctci-ransom-note/problem
-# O(max(N,M))
 
+
+# O(max(N,M))
 def checkMagazine(magazine, note):
     magazine_dict = {}
     note_dict = {}
@@ -34,6 +35,16 @@ def checkMagazine(magazine, note):
         print('Yes')
     else:
         print('No')
+
+
+#O(n2)
+def checkMagazine_2 (magazine, note):
+    for i in range(len(note)):
+        if note.count(note[i]) > magazine.count(note[i]):
+            print('No')
+            return
+
+    print('Yes')
 
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()

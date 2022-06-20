@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4190bd0-92ab-4afe-9b74-0aca9727fed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HackerRank_RansomNote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_DiameterBT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank_RansomNote.py" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank_RansomNote.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
