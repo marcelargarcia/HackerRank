@@ -1,3 +1,6 @@
+# https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+# O(max(N,M))
+
 def checkMagazine(magazine, note):
     magazine_dict = {}
     note_dict = {}
