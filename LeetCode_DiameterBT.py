@@ -1,5 +1,4 @@
 # https://leetcode.com/problems/diameter-of-binary-tree/
-# Definition for a binary tree node.
 
 import sys
 from collections import deque
@@ -10,14 +9,16 @@ class Node:
         self.left = left
         self.right = right
 
-def diameterOfBinaryTree(root):
-    return 0
+def diameterOfBinaryTree(node, diam):
+    if node is None:
+        return 0
 
+    L = diameterOfBinaryTree(node.left, diam)
+    R = diameterOfBinaryTree(node.right, diam)
 
+    diam = max(diam + 1, L + R)
+    return diam
 
-def calcPath(self, node1, node2):
-
-    return 0
 
 if __name__ == '__main__':
     root = Node(1)
@@ -25,7 +26,10 @@ if __name__ == '__main__':
     root.right = Node(3)
     root.left.left = Node(4)
     root.left.right = Node(5)
-    print(diameterOfBinaryTree(root))
+    print(diameterOfBinaryTree(root, 0))
 
+    root2 = Node(1)
+    root2.left = Node(2)
+    print(diameterOfBinaryTree(root2, 0))
 
 
