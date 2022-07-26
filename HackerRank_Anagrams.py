@@ -17,6 +17,7 @@ import sys
 #  2. STRING b
 #
 
+#O(n2)
 def makeAnagram(a, b):
     delete = 0
     visited = []
@@ -32,6 +33,7 @@ def makeAnagram(a, b):
                 visited.append(b[i])
                 delete = abs(a.count(b[i]) - b.count(b[i])) + delete
     return delete
+
 def isAnagram(a, b):
     if len(a) != len(b):
         return False
