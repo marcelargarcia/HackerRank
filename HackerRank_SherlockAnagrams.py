@@ -18,7 +18,7 @@ from itertools import combinations
 # O(n3)
 def sherlockAndAnagrams(s):
     anam = 0
-    list_comb = getCombinations(s) #O(n)
+    list_comb = getCombinations(s) #O(n)???
     for i in range(len(list_comb)): #O(n)
         for j in range(i+1,len(list_comb)): #O(n)
             if len(list_comb[i]) == len(list_comb[j]) and isAnagram(list_comb[i], list_comb[j]): #O(n)
@@ -32,8 +32,7 @@ def sherlockAndAnagrams_2(s):
     for i in range(len(s)): #O(n)
         for j in range(len(s)): #O(n)
             first = s[i:j]
-
-            second = s[]
+            #second = s[]
 
 def getCombinations(s):
     res = [s[x:y] for x, y in combinations(range(len(s) + 1), 2)]
