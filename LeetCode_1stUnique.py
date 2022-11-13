@@ -25,6 +25,7 @@ def firstUniqChar_2(s):
 print(firstUniqChar('leetcode'))
 print(firstUniqChar('loveleetcode'))
 print(firstUniqChar('aabb'))
+
 ####################################################################
 #Input = 1 string
 #Output = 1 integer (index of the 1st non-repeating char)
