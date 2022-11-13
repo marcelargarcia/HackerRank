@@ -1,4 +1,5 @@
 #https://leetcode.com/problems/minimum-index-sum-of-two-lists
+
 import sys
 def findRestaurant(list1, list2):
     min_index = sys.maxsize
