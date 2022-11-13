@@ -17,7 +17,6 @@ def minDepth(node, minDep):
     else:
         tempDep = min(L,R) + 1
     minDep = tempDep
-        #min(L, R, tempDep)
     return minDep
 
 if __name__ == '__main__':

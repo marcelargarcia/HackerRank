@@ -1,22 +1,28 @@
 # https://leetcode.com/problems/zigzag-conversion/
-from collections import deque
+
 def convert(s, numRows):
-    letters = len(s)
-    numCols = 0
-    matrix = []
-    on = True
-    while letters > 0:
-        if on:
-            letters = letters - numRows
-            numCols = numCols +1
-        else:
-            letters = letters - (numRows - 2)
-            numCols = numCols + 1
-        on = not on
-    s_deq = deque(s)
-    i = j = 0
-    while j < numCols:
-        i = i - 1
-        while i < numRows:
-            matrix[i][j] = s_deq.popLeft()
-            i = i + 1
+    i = 0
+    newS = ""
+    if len(s) == 1 or numRows == 1:
+        return s
+    while i < numRows:
+        j = i
+        on = True
+        while len(s) > j >= 0:
+            if (on and i != 0 and i != numRows - 1) or i == 0:
+                newS = newS + s[j]
+                j = j + ((2 * numRows) - (2 * i) - 3) + 1
+            elif (not on and i != 0 and i != numRows - 1) or i == numRows - 1:
+                newS = newS + s[j]
+                j = j + (2 * i)
+            on = not on
+        i = i + 1
+
+    return newS
+
+
+if __name__ == '__main__':
+    print(convert('PAYPALISHIRING', 4))
+    print(convert('PA', 2))
+    print(convert('P', 1))
+    print(convert('PA', 1))

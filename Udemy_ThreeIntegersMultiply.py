@@ -6,9 +6,9 @@ def find3IntegersMulitply(list, mult):
         if mult % list[m] == 0:
             divisiveis.append(list[m])
 
+    left = 0
+    right = 2
     for i in range(1,len(divisiveis)):
-        left = 0
-        right = i+1
         while divisiveis[left] * divisiveis[i] * divisiveis[right] != mult and left < i and right <= len(divisiveis):
             if right == len(divisiveis)-1:
                 if left < i:
