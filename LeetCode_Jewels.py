@@ -1,4 +1,4 @@
-
+#https://leetcode.com/problems/jewels-and-stones
 def numJewelsInStones(jewels, stones):
     jewelsSet = createSetJewels(jewels)
     num = 0
