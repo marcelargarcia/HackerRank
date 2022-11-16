@@ -1,5 +1,20 @@
 #https://leetcode.com/problems/jewels-and-stones
+
+from collections import Counter
+
+#Solution 1
 def numJewelsInStones(jewels, stones):
+    hashFreq = Counter(stones)
+    num = 0
+    for k, v in hashFreq.items():
+        if jewels.find(k) != -1:
+            num += v
+    return num
+
+
+
+# Solution 2
+def numJewelsInStones_2(jewels, stones):
     jewelsSet = createSetJewels(jewels)
     num = 0
     for s in range(len(stones)):
