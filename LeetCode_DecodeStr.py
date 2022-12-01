@@ -1,36 +1,27 @@
 #https://leetcode.com/problems/decode-string/discussion/
 
-def stacky(s):
-    """
-    When we hit an open bracket, we know we have parsed k for the contents of the bracket, so
-    push (current_string, k) to the stack, so we can pop them on closing bracket to duplicate
-    the enclosed string k times.
-    """
-    stack = []
-    current_string = ""
-    k = 0
-
-    for char in s:
-        if char == "[":
-            # Just finished parsing this k, save current string and k for when we pop
-            stack.append((current_string, k))
-            # Reset current_string and k for this new frame
-            current_string = ""
-            k = 0
-        elif char == "]":
-            # We have completed this frame, get the last current_string and k from when the frame
-            # opened, which is the k we need to duplicate the current current_string by
-            last_string, last_k = stack.pop(-1)
-            current_string = last_string + last_k * current_string
-        elif char.isdigit():
-            k = k * 10 + int(char)
-        else:
-            current_string += char
-
-    return current_string
-
-
-print(stacky("3[a2[c]]"))
-print(stacky("2[abc]3[cd]ef"))
-print(stacky("3[a2[c]a]"))
-
+class Solution(object):
+    def decodeString(self, s):
+        output = ''
+        dig = ''
+        stack = []
+        for c in range(len(s)):
+            if s[c].isdigit():
+                dig = dig + s[c]
+                if c < len(s) - 1 and not s[c+1].isdigit():
+                    stack.append((output, dig))
+                    dig = ''
+            elif s[c].isalpha():
+                output = output + s[c]
+            elif s[c] == ']':
+                lastoutput, num = stack.pop()
+                dif = output[len(lastoutput):]
+                output = str(lastoutput) + str(dif) * int(num)
+        return output
+so = Solution()
+# print(so.decodeString("3[a2[c]a]"))
+# print(so.decodeString("2[abc]3[cd]ef"))
+print(so.decodeString("3[a]2[bc]"))
+# print(so.decodeString("3[a2[c]]"))
+# print(so.decodeString("3[aa]"))
+print(so.decodeString("100[leetcode]"))
